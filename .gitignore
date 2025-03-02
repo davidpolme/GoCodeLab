@@ -1,0 +1,33 @@
+# Binaries and executables
+*.exe
+*.out
+*.dll
+
+# Build artifacts
+/bin/
+/pkg/
+/vendor/
+
+# Go modules
+go.mod
+go.sum
+
+# Test and coverage files
+*.test
+coverage.out
+
+# Logs and debug files
+*.log
+*.cache
+debug/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
